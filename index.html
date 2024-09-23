@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yummy</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="imgs/logo.png">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="Css/all.min.css " />
+  <!-- Bootstrap Css -->
+  <link rel="stylesheet" href="Css/bootstrap.min.css" />
+  <!-- Main Css -->
+  <link rel="stylesheet" href="Css/main.css" />
+</head>
+
+<body>
+  <!-- Loader -->
+   
+  <div class="loading vh-100  flex justify-content-center align-items-center">
+    <div class="sk-chase">
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+    </div>
+  </div>
+
+
+  <div class="container my-5 text-white">
+    <div class="row g-4" id="rowSearch"></div>
+    <div class="row py-2 g-4" id="rowMeal">
+   
+    </div>
+  </div>
+
+  <!-- Side Bar -->
+  <div id="sideBar" class="d-flex">
+    <div id="leftSide" class="py-3 px-4 d-flex flex-column justify-content-between">
+      <div>
+        <ul class="ps-0 mt-3 List">
+          <li class="click"  id="activeSearch"> Search</li>
+          <li class="click"  id="activeCategories"> Categories</li>
+          <li  class="click" id ="activeArea">Area</li>
+          <li class="click"  id="activeIngredients">Ingredients</li>
+          <li class="click"  id="activeContact">Contact Us</li>
+        </ul>
+      </div>
+      <div class="text-white">
+        <ul class="d-flex justify-content-start fs-5 ps-0">
+          <i class="fa-brands fa-facebook me-1 click"></i>
+          <i class="fa-brands fa-twitter me-1 click"></i>
+          <i class="fa-solid fa-globe click"></i>
+        </ul>
+        <div></div>
+        <p>Copyright Â© 2019 All Rights <br />Reserved.</p>
+      </div>
+    </div>
+
+    <div class="bg-white d-flex flex-column justify-content-between py-4 px-2 text-center" id="rightSide">
+      <div class="image">
+        <img src="imgs/logo.png" alt="" />
+      </div>
+      <i class="fas fa-align-justify fs-2 Buttn click"></i>
+      <div class="d-flex flex-column">
+        <i class="fa-solid fa-share-nodes mb-1 click"></i>
+        <i class="fa-solid fa-globe click"></i>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- jQuery  -->
+  <script src="JavaScript/jquery-3.7.1.min.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="JavaScript/bootstrap.bundle.min.js"></script>
+  <!-- Main JavaSCript -->
+  <script src="JavaScript/main.js"></script>
+</body>
+
+</html>
